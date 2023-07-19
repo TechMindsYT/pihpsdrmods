@@ -70,6 +70,10 @@ elif [[ $input == "pihpsdr" ]]; then
 	sed -i '/^#MIDI_INCLUDE=MIDI/c\MIDI_INCLUDE=MIDI' ./Makefile;
 	sed -i '/^GPIO_INCLUDE=GPIO/c\#GPIO_INCLUDE=GPIO' ./Makefile;
 	sed -i '/^LOCALCW_INCLUDE=LOCALCW/c\#LOCALCW_INCLUDE=LOCALCW' ./Makefile;
+
+        #main.c modification to change screen size to 1366 x 768
+	sed -i '/^MAX_DISPLAY_WIDTH  800/c\MAX_DISPLAY_WIDTH  1366' ./main.c;
+        sed -i '/^MAX_DISPLAY_HEIGHT 480/c\MAX_DISPLAY_HEIGHT 768' ./main.c;
 		
 	if [ "$localcw" -eq "1" ]; then
 		sed -i '/^#GPIO_INCLUDE=GPIO/c\GPIO_INCLUDE=GPIO' ./Makefile;
