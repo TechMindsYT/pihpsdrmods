@@ -88,7 +88,7 @@ elif [[ $input == "pihpsdr" ]]; then
 	fi
 	cp release/pihpsdr/hpsdr.png /home/pi/.pihpsdr
 	cd ..
-	rm -rf pihpsdr
+	#rm -rf pihpsdr
 	
 	rm /home/pi/Desktop/pihpsdr.desktop
 	file="/home/pi/Desktop/pihpsdr.desktop"
