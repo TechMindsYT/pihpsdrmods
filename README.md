@@ -1,6 +1,6 @@
 # pihpsdrmods
 
-This script is for installing PiHPsdr onto a RPi4 using a Radioberry. 
+This script is for installing PiHPsdr onto a RPi4 RPi5.
 
 This first script (pihpsdr_install.sh) specifically changes the screen resolution to 1366 x 768 with NO SOAPY support.
 
