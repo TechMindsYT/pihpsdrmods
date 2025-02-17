@@ -6,8 +6,8 @@ This first script (pihpsdr_install.sh) specifically changes the screen resolutio
 
 The second script (pihpsdr_install_soapy.sh) is for use with a 800 x 480 screen and it also enables SOAPY support.
 
-Install the following first, if you want to use SOAPY.
-
+## Install the following first, if you want to use SOAPY.
+```
 sudo apt-get install -y git build-essential automake cmake
 
 git clone https://github.com/pothosware/SoapySDR.git
@@ -40,3 +40,4 @@ make
 sudo make install
 sudo ldconfig 
 
+```
