@@ -43,5 +43,5 @@ sudo ldconfig
 ```
 To download the scrtipt use the following command:
 ```
-wget -O "https://raw.githubusercontent.com/TechMindsYT/pihpsdrmods/refs/heads/main/pihpsdr_install_soapy.sh"
+wget https://raw.githubusercontent.com/TechMindsYT/pihpsdrmods/refs/heads/main/pihpsdr_install_soapy.sh
 ```
