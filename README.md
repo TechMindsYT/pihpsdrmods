@@ -41,7 +41,9 @@ sudo make install
 sudo ldconfig 
 
 ```
-To download the scrtipt use the following command:
+To download the SOAPY script and run it, use the following commands:
 ```
 wget https://raw.githubusercontent.com/TechMindsYT/pihpsdrmods/refs/heads/main/pihpsdr_install_soapy.sh
+sudo chmod +x pihpsdr_install_soapy.sh
+./pihpsdr_install_soapy.sh
 ```
